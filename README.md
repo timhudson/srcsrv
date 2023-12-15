@@ -6,10 +6,10 @@
 
 It is expected that you have [Bun](https://bun.sh/) installed.
 
-## Installation
+## Install
 
 ```sh
-bun install -g srcsrv
+bun install -g timhudson/srcsrv
 ```
 
 ## Usage
