@@ -1,0 +1,23 @@
+{
+  "name": "srcsrv",
+  "version": "1.0.0",
+  "description": "Fetch and extract source files from a source map",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "srcsrv": "index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "arg": "^5.0.2",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "source-map": "^0.7.4"
+  }
+}
